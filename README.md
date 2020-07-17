@@ -1,53 +1,51 @@
-# _Currency Exchanger_
+# Scrabble Score
 
-#### _Week 6 project at Epicodus, 7/3/2020_
+#### Latest version date 2020/07/16
 
-#### By _**Spencer Moody**_
+#### By Deryck Jackson, Spencer Moody, Sean Downs
 
 ## Description
+This application will take a word and return the Scrabble score for that word.
 
-_This is an application that will take a users inputted amount (in USD) and outputs a converted amount for the selected country._
+## Specifications
 
-## Specs
+1. **Behavior:** The user will be able to input a word in the console and the return will be a numerical value associated with each letter in that word.
+    * **Input Example:** A
+    * **Output Example:** 1
 
-| Spec | Input | Output |
-| :-------------      | :------------- | :------------- |
-| ** 1. The program will allow the user to enter an amount in USD | 100 | -- |
-| ** 2. The program will allow the user to select the currency they would like to convert to | EUR | EUR |
-| ** 3. The program will return an error message if the user trys to convert to a currency that is not supported | "something" | "Currency does not exist, please try a different currency" |
-| ** 4. The program will return the converted currency | 100 USD | 88.94 EUR |
-| ** 5. The program will allow the user to convert between all currencies | EUR | USD |
+2. **Behavior:** The program will add the score for each letter to the total score and return it to the user.
+    * **Input Example:** "hello"
+    * **Output Example:** 8
 
-## Setup/Installation Requirements
+## Setup and Installation
 
-* _Clone or download this repository located at https://github.com/smoody0208/week-6-project_
-* _Visit https://www.exchangerate-api.com/ and enter your email address to receive a free API key_
-* _In your terminal navigate to the cloned or downloaded repository_
-* _Create a .env file in the projects root directory_
-* _Add the following to your .env file: API_KEY = YOUR UNIQUE API KEY GOES HERE_
-* _Run $ npm run install to download all dev dependencies_
-* _Run $ npm run build to create a dist folder_
-* _Run $ npm run start to to view the project in your browser_
+Software Requirements
+1. .NET framework
+2. A code editor (Visual Studio Code, Atom, etc.)
 
-## Known Bugs
+Acquire The Repo:
+1. Click the 'Clone or Download Button
+2. Alternately, Clone via Bash/GitBash: `git clone {repo}`
 
-_No known bugs_
+Editting the Code Base:
+1. Open the project in your code editor; with Bash, this is done by navigating to the project directory, then `code .`
+2. If you wish to run testing, you'll need the testing packages: navigate into the .Tests folder, and run `dotnet restore`
 
-## Support and contact details
+Running the program:
+1. To run the program, you'll need to compile the code: `dotnet build`. This will create a compiled application in the bin/ folder.
+2. Alternately, you can run the program directly with `dotnet run`.
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+## Bugs
 
-## Technologies Used
+No bugs
 
-* _GitHub_
-* _HTML_
-* _CSS_
-* _BootStrap_
-* _Visual Studio Code_
-* _JavaScript_
-* _jQuery_
-* _Node_
+## Tech used
+
+* C#
+* .NET
 
 ### License
 
-*Copyright (c) 2020 **_Spencer Moody MIT_***
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+Copyright (c) 2020 Deryck Jackson, Spencer Moody, Sean Downs
